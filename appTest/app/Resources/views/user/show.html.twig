@@ -1,0 +1,32 @@
+{% extends 'back.html.twig' %}
+
+{% block content %}
+    <h1>User</h1>
+
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Id</th>
+                <th>Email</th>
+                <th>Username</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>{{ user.id }}</td>
+                <td>{{ user.email }}</td>
+                <td>{{ user.username }}</td>
+                <td>
+                    <a href="{{ path('app_user_edit', { 'id': user.id }) }}">Edit</a>
+                     {{ form_start(delete_form) }}
+                            <input class="btn btn-link" type="submit" value="Delete">
+                     {{ form_end(delete_form) }}
+                </td>
+            </tr>
+        </tbody>
+    </table>
+
+            <a class="btn btn-outline-primary" href="{{ path('app_user_index') }}">Back to the list</a>
+
+{% endblock %}

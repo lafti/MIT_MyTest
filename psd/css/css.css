@@ -1,0 +1,324 @@
+
+/*******************************************Header******************************************/
+.slider{
+	background-image: url("../img/1.png");
+    background-position: center;
+    background-size: cover;
+    min-height: 100vh;
+    padding-bottom: 10px;
+    padding:1px;
+}
+.logo{
+    width: 100px;
+    text-align: center;
+    display: inline-block;
+    margin-left: 8%;
+    margin-top: 2px;
+}
+.menu{
+    width: 300px;
+    float: right;
+    margin-top: 20px;
+    margin-right: 8%;
+    font-family: sans-serif;
+    font-size: 20px;
+}
+.menu li{
+	display: inline-block;
+	margin: 0px 10px 0px 10px;
+}
+.menu a {
+    color: #fff;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+/*******************************************Title******************************************/
+.slider .title{
+    text-align: center;
+    position: absolute;
+    width: 100%;
+    top: 35%;
+    left: 0;
+    right: 0;
+}
+.slider .title p{
+    color: #ffff;
+    font-family: monospace;
+    margin: 50px;
+}
+.slider .title a{
+    color: #ffff;
+}
+.slider h1{
+	font-family: monospace;
+    font-size: 80px;
+    margin: 0px;
+    text-transform: uppercase;
+    color: #ffff;
+    margin-bottom: 25px;
+}
+.slider h3{
+    font-family: 'time new roman';
+    font-style: italic;
+    font-size: 30px;
+    margin-bottom: 0px;
+    color: #fffc;
+}
+.slider .btnStarted {
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #fff;
+    border: 2px solid #fff;
+    padding: 12px 52px 12px 52px;
+    font-family: sans-serif;
+}
+/*******************************************GET******************************************/
+.divImg {
+    position: relative;
+    margin: auto;
+}
+.divImg img {
+    padding: 19px;
+}
+.divServices {
+    margin-top: 90px;
+    margin-bottom: 90px;
+}
+.divServices h3, 
+.mobDetaille h3, 
+.broseByCuisine h3{
+	text-transform: uppercase;
+    font-weight: 600;
+    font-size: 18px;
+}
+.divServices hr{
+    border: .6px solid #f68376;
+    width: 83px;
+    margin: auto;
+    margin-top: -4px;
+    margin-bottom: 15px;
+}
+.divServices p, .mobDetaille p{
+	font-family: unset;
+    color: #777;
+    clear: both;
+}
+/*******************************************Fudi App******************************************/
+.text-center {
+    text-align: center;
+}
+.btnApp{
+	margin-top: 25px;
+}
+.btnApp img {
+    margin-right: 5px;
+}
+.mobileInfo {
+    background-color: #f7f7f7;
+    margin-bottom: -42px;
+    padding-top: 70px;
+}
+.mobDetaille hr {
+    border: .5px solid #f68376;
+    width: 83px;
+    margin: auto;
+    margin-top: -4px;
+    float: left;
+    margin-bottom: 16px;
+}
+.imgPhone {
+    width: 80%;
+    margin: auto;
+}
+/*******************************************Témoignage******************************************/
+.carousel-inner .item img{
+    margin: auto;
+}
+.carousel-caption{
+	top: 100px;
+}
+.carousel-caption {
+    position: static;
+    right: 0px !important;
+    bottom: 0;
+    left: 0px !important;
+    z-index: 10;
+    padding-top: 0;
+    padding-bottom: 0px !important;
+    color: #fff;
+    text-align: center;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, .6);
+}
+#myCarousel{
+	background-image: url(../img/9.png);
+    height: 390px;
+    background-position: center;
+}
+.carousel-inner {
+    height: 100%;
+}
+.carousel-inner .item{
+    height: auto;
+    margin-top: 60px;
+}
+.carousel-inner p {
+    font-family: inherit;
+    font-size: 20px;
+    color: #ffff;
+}
+.carousel-inner p span {
+    font-size: 17px;
+    font-style: italic;
+}
+/*******************************************Cuisine******************************************/
+.broseByCuisine {
+    padding-top: 70px;
+}
+.broseByCuisine img{
+     width: 100%;
+}
+.broseByCuisine hr{
+    margin-bottom: 36px;
+    border: .6px solid #f68376;
+    width: 83px;
+    margin: auto;
+    margin-top: -4px;
+    margin-bottom: 15px;
+    margin-bottom: 40px;
+}
+.foodInfo{
+	position: absolute;
+    right: 0;
+    left: 0;
+    height: 100%;
+    padding-top: 23%;
+}
+.foodInfo span{
+	font-family: 'time new roman';
+    font-style: italic;
+    color: #fff;
+}
+.foodInfo h3{
+    color: #fff;
+    font-size: 35px;
+    margin: auto;
+}
+.divImgFood {
+	position: relative;
+	 padding-bottom: 30px;
+}
+/*******************************************Count******************************************/
+.divCount {
+}
+.divCount h3{
+    font-family: unset;
+    font-size: 31px;
+    margin-bottom: 5px;
+    margin-top: 0px;
+    font-weight: bold;
+}
+.divCount span{
+	font-family: unset;
+    font-size: 15px;
+    text-transform: capitalize;
+    color: #656565;
+}
+.divCount .item {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+/*******************************************FOOTER******************************************/
+.allRights{
+    font-family: LatoLig;
+    text-align: center;
+    margin-left: 0px;
+    color: darkgrey;
+}
+.designBy {
+    font-family: LatoLig;
+    float: none;
+    text-align: center;
+    margin-right: 0px;
+    color: darkgrey;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+}
+.designBy a{
+	color: #000;
+    font-weight: 600;
+}
+footer{
+	background-color: #f7f7f7;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+/*******************************************Responsive******************************************/
+@media (min-width: 992px){
+	.broseByCuisine .col-md-3{
+	    width: 20% !important;
+	    padding: 0px !important;
+	}	
+    .divCount .col-md-3 {
+        width: 20% !important;
+    }   
+	.broseByCuisine .col-md-6{
+	    padding: 0px !important;
+	}
+}
+@media (min-width: 768px){
+	.gallery .col-sm-6 {
+	    padding: 0px !important;
+	}
+    .divCount .col-md-3 {
+        width: 20% !important;
+    } 
+    footer{
+        padding-top: 30px;
+        padding-bottom: 50px;
+    }
+}
+
+@media (max-width: 768px){
+	.broseByCuisine .col-sm-6 {
+	    padding: 0px !important;
+	}
+}
+@media (max-width: 992px){
+	.mobDetaille{
+		padding-top: 0px;
+	}
+	.mobileInfo {
+	    padding-top: 50px;
+	    text-align: center;
+	    margin-bottom: -16px;
+	}
+	.mobDetaille p {
+	    width: 100%;
+	}
+	.mobDetaille hr {
+	    float: none;
+        margin-bottom: 35px;
+	}
+	.btnApp {
+	    margin: 40px;
+	}
+	.btnApp a img {
+	    margin-bottom: 5px;
+	}
+}
+@media (max-width: 530px){
+	.logo {
+	    width: 100%;
+	    margin-left: 0px;
+	    margin-top: 60px;
+	}
+	.logo img {
+	    width: 200px;
+	}
+	.menu {
+    	display: none;
+    }
+    .slider h1 {
+	    font-size: 80px;
+	}
+}

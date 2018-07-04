@@ -1,0 +1,11 @@
+{% extends 'back.html.twig' %}
+
+{% block content %}
+    <h1>User creation</h1>
+
+    {{ form_start(form) }}
+        {{ form_widget(form) }}
+        <input class="btn btn-primary" type="submit" value="Create" />
+         <a class="btn btn-outline-primary" href="{{ path('app_user_index') }}">Back to the list</a>
+    {{ form_end(form) }}
+{% endblock %}

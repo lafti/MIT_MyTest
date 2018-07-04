@@ -1,0 +1,12 @@
+{% extends 'back.html.twig' %}
+
+{% block content %}
+    <h1>User edit</h1>
+
+    {{ form_start(edit_form) }}
+        {{ form_widget(edit_form) }}
+        <input class="btn btn-primary" type="submit" value="Edit" />
+        <a class="btn btn-outline-primary" href="{{ path('app_user_index') }}">Back to the list</a>
+    {{ form_end(edit_form) }}
+
+{% endblock %}
