@@ -49,7 +49,7 @@ CREATE TABLE `fos_user` (
 
 INSERT INTO `fos_user` (`id`, `username`, `username_canonical`, `email`, `email_canonical`, `enabled`, `salt`, `password`, `last_login`, `confirmation_token`, `password_requested_at`, `roles`) VALUES
 (1, 'admin', 'admin', 'contact@contact.com', 'contact@contact.com', 1, NULL, '$2y$13$mQqBMCpghEq2bUZGRpymM.XiXSP1Ucfi/7VKvcRcow3uoOjcDZG5.', '2018-07-04 20:07:06', NULL, NULL, 'a:1:{i:0;s:10:\"ROLE_ADMIN\";}'),
-(2, 'aa', 'aa', 'marketing@innogroup.ma', 'marketing@innogroup.ma', 1, NULL, '$2y$13$4NWMc0dHETyMZ65.rzbQx.ZDI6P88ozSd/fM0vzB303Y8F0UKs4Bi', '2018-07-03 19:03:28', NULL, NULL, 'a:0:{}');
+(2, 'aa', 'aa', 'aa@aa.ma', 'aa@aa.ma', 1, NULL, '$2y$13$4NWMc0dHETyMZ65.rzbQx.ZDI6P88ozSd/fM0vzB303Y8F0UKs4Bi', '2018-07-03 19:03:28', NULL, NULL, 'a:0:{}');
 
 --
 -- Index pour les tables déchargées
